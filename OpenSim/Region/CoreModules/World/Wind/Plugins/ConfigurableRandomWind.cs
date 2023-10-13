@@ -68,13 +68,18 @@
  * To enable random wind with adjustable parameters, you can add the following settings to your configuration file:
 
  * OpenSim.ini
-[WindConfig]
-strength = 7.0
-avg_direction = 45.0
-var_strength = 2.0
-var_direction = 15.0
-rate_change = 1.5
-random_wind_enabled = true
+    [Wind]
+    enabled = true
+    wind_update_rate = 150
+    ;wind_plugin = SimpleRandomWind
+    ;wind_plugin = ConfigurableWind
+    wind_plugin = ConfigurableRandomWind
+    strength = 7.0
+    avg_direction = 45.0
+    var_strength = 2.0
+    var_direction = 15.0
+    rate_change = 1.5
+    random_wind_enabled = true
 */
 
 using System;
