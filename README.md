@@ -49,7 +49,12 @@ float WindParamGet(string param)
 To enable random wind with adjustable parameters, you can add the following settings to your configuration file:
 
 ## Config OpenSim.ini
-     [WindConfig]
+     [Wind]
+     enabled = true
+     wind_update_rate = 150
+     ;wind_plugin = SimpleRandomWind
+	;wind_plugin = ConfigurableWind
+	wind_plugin = ConfigurableRandomWind
      strength = 7.0
      avg_direction = 45.0
      var_strength = 2.0
@@ -103,10 +108,15 @@ float WindParamGet(string param)
 Um zufälligen Wind mit einstellbaren Parametern zu ermöglichen, können Sie die folgenden Einstellungen zu Ihrer Konfigurationsdatei hinzufügen:
 
 ## OpenSim.ini konfigurieren
-     [WindConfig]
-     Stärke = 7,0
-     avg_direction = 45,0
-     var_strength = 2,0
+     [Wind]
+     enabled = true
+     wind_update_rate = 150
+     ;wind_plugin = SimpleRandomWind
+	;wind_plugin = ConfigurableWind
+	wind_plugin = ConfigurableRandomWind
+     strength = 7.0
+     avg_direction = 45.0
+     var_strength = 2.0
      var_direction = 15.0
-     rate_change = 1,5
+     rate_change = 1.5
      random_wind_enabled = true
