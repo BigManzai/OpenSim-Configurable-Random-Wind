@@ -10,7 +10,9 @@ The ConfigurableRandomWind plugin is designed to provide wind simulation in virt
 
 ## Plugin Features
 1.*Random Wind Generation:**The plugin allows you to generate random winds with a customizable wind direction and strength.
+
 2. **Configuration:**You can configure the wind parameters such as average strength, average direction, variance in strength, variance in direction, and the rate of change.
+
 3. **Enable/Disable Random Wind:**The plugin can be configured to enable or disable random wind generation.
 
 ## Configuration
@@ -70,10 +72,14 @@ Klasseninformationen
 - **Klassenname:**ConfigurableRandomWind
 - **Namespace:**OpenSim.Region.CoreModules.World.Wind.Plugins
 - **Version:**1.0.0.0
+
 ## Plugin-Funktionen
 1.*Zufällige Winderzeugung:**Mit dem Plugin können Sie zufällige Winde mit anpassbarer Windrichtung und -stärke erzeugen.
+
 2. **Konfiguration:**Sie können die Windparameter wie durchschnittliche Stärke, durchschnittliche Richtung, Stärkevarianz, Richtungsvarianz und Änderungsrate konfigurieren.
+
 3. **Zufälligen Wind aktivieren/deaktivieren:**Das Plugin kann so konfiguriert werden, dass die zufällige Winderzeugung aktiviert oder deaktiviert wird.
+
 ## Aufbau
 Zur Steuerung des Windverhaltens können folgende Konfigurationsparameter angepasst werden:
 - Stärke: Die durchschnittliche Windstärke.
@@ -83,6 +89,7 @@ Zur Steuerung des Windverhaltens können folgende Konfigurationsparameter angepa
 - var_direction: Zulässige Abweichung der Windrichtung in Grad.
 - rate_change: Die Änderungsrate der Windrichtung.
 - random_wind_enabled: Zufällige Winderzeugung aktivieren (wahr/falsch).
+
 ## Methoden
 void Initialise()
 -Diese Methode initialisiert das Wind-Plugin.
@@ -104,6 +111,7 @@ void WindParamSet(string param, float value)
 - Mit dieser Methode können Sie bestimmte Windparameter einstellen.
 float WindParamGet(string param)
 – Diese Methode ruft den Wert eines bestimmten Windparameters ab.
+
 ## Beispielkonfiguration
 Um zufälligen Wind mit einstellbaren Parametern zu ermöglichen, können Sie die folgenden Einstellungen zu Ihrer Konfigurationsdatei hinzufügen:
 
