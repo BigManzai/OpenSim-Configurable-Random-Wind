@@ -144,3 +144,43 @@ Um zufälligen Wind mit einstellbaren Parametern zu ermöglichen, können Sie di
      varDirection“, „zulässige Abweichung der Windrichtung in +/- Grad“
      rateChange“, „Windänderungsrate“
      randomWindEnabled“, „zufällige Winderzeugung aktivieren (true/false)“
+     
+## Version 002
+
+    [WindSettings]
+    avg_strength = 5.0
+    avg_direction = 0.0
+    var_strength = 5.0
+    var_direction = 30.0
+    rate_change = 1.0
+    random_wind_enabled = true
+    north_wind_enabled = true
+    northwest_wind_enabled = true
+    northeast_wind_enabled = true
+    south_wind_enabled = true
+    southwest_wind_enabled = true
+    southeast_wind_enabled = true
+    west_wind_enabled = true
+    east_wind_enabled = true
+    angle_range = 10.0
+
+* 2023-10-15 18:55:07,753 INFO  [WIND] Enabled with an update rate of 150 frames.
+* 2023-10-15 18:55:08,180 INFO  [WIND] Found Plugin: ConfigurableRandomWind
+* 2023-10-15 18:55:08,181 INFO  [WIND] Found Plugin: SimpleRandomWind
+* 2023-10-15 18:55:08,181 INFO  [WIND] Found Plugin: ConfigurableWind
+* 2023-10-15 18:55:08,181 INFO  [WIND] ConfigurableRandomWind plugin found, initializing.
+* 2023-10-15 18:55:08,184 INFO  [ConfigurableRandomWind] Average Strength   : 5
+* 2023-10-15 18:55:08,184 INFO  [ConfigurableRandomWind] Average Direction  : 45
+* 2023-10-15 18:55:08,184 INFO  [ConfigurableRandomWind] Variance Strength : 2
+* 2023-10-15 18:55:08,184 INFO  [ConfigurableRandomWind] Variance Direction: 15
+* 2023-10-15 18:55:08,184 INFO  [ConfigurableRandomWind] Rate Change       : 1.5
+* 2023-10-15 18:55:08,184 INFO  [ConfigurableRandomWind] Random Wind Enabled: True
+* 2023-10-15 18:55:08,185 INFO  [ConfigurableRandomWind] Wind Angle Range: 10
+* 2023-10-15 18:55:08,185 INFO  [ConfigurableRandomWind] north wind enabled: True
+* 2023-10-15 18:55:08,185 INFO  [ConfigurableRandomWind] northwest wind enabled: True
+* 2023-10-15 18:55:08,185 INFO  [ConfigurableRandomWind] northeast wind enabled: False
+* 2023-10-15 18:55:08,185 INFO  [ConfigurableRandomWind] south wind enabled: False
+* 2023-10-15 18:55:08,185 INFO  [ConfigurableRandomWind] southwest wind enabled: False
+* 2023-10-15 18:55:08,185 INFO  [ConfigurableRandomWind] southeast wind enabled: False
+* 2023-10-15 18:55:08,185 INFO  [ConfigurableRandomWind] east wind enabled: False
+* 2023-10-15 18:55:08,185 INFO  [ConfigurableRandomWind] west wind enabled: False
