@@ -148,21 +148,28 @@ Um zufälligen Wind mit einstellbaren Parametern zu ermöglichen, können Sie di
 ## Version 002
 
     [WindSettings]
-    avg_strength = 5.0
-    avg_direction = 0.0
-    var_strength = 5.0
-    var_direction = 30.0
-    rate_change = 1.0
-    random_wind_enabled = true
-    north_wind_enabled = true
-    northwest_wind_enabled = true
-    northeast_wind_enabled = true
-    south_wind_enabled = true
-    southwest_wind_enabled = true
-    southeast_wind_enabled = true
-    west_wind_enabled = true
-    east_wind_enabled = true
-    angle_range = 10.0
+    	enabled = true
+    	wind_update_rate = 150
+
+    	;wind_plugin = SimpleRandomWind
+	;wind_plugin = ConfigurableWind
+	wind_plugin = ConfigurableRandomWind
+	
+	strength = 7.0
+	avg_direction = 45.0
+	var_strength = 2.0
+	var_direction = 15.0
+	rate_change = 1.5
+	random_wind_enabled = true
+	north_wind_enabled = true
+	northwest_wind_enabled = true
+	northeast_wind_enabled = false
+	south_wind_enabled = false
+	southwest_wind_enabled = false
+	southeast_wind_enabled = false
+	west_wind_enabled = false
+	east_wind_enabled = false
+	angle_range = 10.0
 
 * 2023-10-15 18:55:07,753 INFO  [WIND] Enabled with an update rate of 150 frames.
 * 2023-10-15 18:55:08,180 INFO  [WIND] Found Plugin: ConfigurableRandomWind
