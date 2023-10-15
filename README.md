@@ -128,3 +128,19 @@ Um zufälligen Wind mit einstellbaren Parametern zu ermöglichen, können Sie di
      var_direction = 15.0
      rate_change = 1.5
      random_wind_enabled = true
+
+# Divers Info
+
+     Durchschnittliche Windstärke: avgStrength
+     Durchschnittliche Windrichtung: avgDirection
+     Windvarianzstärke: varStrength
+     Windvarianzrichtung: varDirection
+     Windratenänderung: rateChange
+     Zufälliger Wind aktiviert: randomWindEnabled
+
+     avgStrength“, „durchschnittliche Windstärke“
+     avgDirection“, „durchschnittliche Windrichtung in Grad“
+     varStrength“, „zulässige Abweichung der Windstärke“
+     varDirection“, „zulässige Abweichung der Windrichtung in +/- Grad“
+     rateChange“, „Windänderungsrate“
+     randomWindEnabled“, „zufällige Winderzeugung aktivieren (true/false)“
