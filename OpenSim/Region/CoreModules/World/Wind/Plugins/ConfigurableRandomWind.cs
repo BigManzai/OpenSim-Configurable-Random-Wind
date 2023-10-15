@@ -305,11 +305,11 @@ namespace OpenSim.Region.CoreModules.World.Wind.Plugins
         /// </summary>
         private void LogSettings()
         {
-            m_log.InfoFormat("[ConfigurableRandomWind] Average Strength   : {0}", m_avgStrength);
-            m_log.InfoFormat("[ConfigurableRandomWind] Average Direction  : {0}", m_avgDirection);
-            m_log.InfoFormat("[ConfigurableRandomWind] Variance Strength : {0}", m_varStrength);
-            m_log.InfoFormat("[ConfigurableRandomWind] Variance Direction: {0}", m_varDirection);
-            m_log.InfoFormat("[ConfigurableRandomWind] Rate Change       : {0}", m_rateChange);
+            m_log.InfoFormat("[ConfigurableRandomWind] Wind Average Strength   : {0}", m_avgStrength);
+            m_log.InfoFormat("[ConfigurableRandomWind] Wind Average Direction  : {0}", m_avgDirection);
+            m_log.InfoFormat("[ConfigurableRandomWind] Wind Variance Strength : {0}", m_varStrength);
+            m_log.InfoFormat("[ConfigurableRandomWind] Wind Variance Direction: {0}", m_varDirection);
+            m_log.InfoFormat("[ConfigurableRandomWind] Wind Rate Change       : {0}", m_rateChange);
             m_log.InfoFormat("[ConfigurableRandomWind] Random Wind Enabled: {0}", m_randomWindEnabled);
         }
     }
