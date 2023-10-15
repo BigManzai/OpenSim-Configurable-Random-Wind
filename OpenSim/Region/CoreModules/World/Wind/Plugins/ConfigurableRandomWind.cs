@@ -244,7 +244,7 @@ namespace OpenSim.Region.CoreModules.World.Wind.Plugins
             Params.Add("avgDirection", "average wind direction in degrees");
             Params.Add("varStrength", "allowable variance in wind strength");
             Params.Add("varDirection", "allowable variance in wind direction in +/- degrees");
-            Params.Add("rateChange", "rate of change");
+            Params.Add("rateChange", "rate of wind change");
             Params.Add("randomWindEnabled", "enable random wind generation (true/false)");
             return Params;
         }
