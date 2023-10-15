@@ -55,8 +55,8 @@ To enable random wind with adjustable parameters, you can add the following sett
      enabled = true
      wind_update_rate = 150
      ;wind_plugin = SimpleRandomWind
-	;wind_plugin = ConfigurableWind
-	wind_plugin = ConfigurableRandomWind
+     ;wind_plugin = ConfigurableWind
+     wind_plugin = ConfigurableRandomWind
      strength = 7.0
      avg_direction = 45.0
      var_strength = 2.0
