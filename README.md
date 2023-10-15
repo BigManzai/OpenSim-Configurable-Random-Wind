@@ -148,10 +148,10 @@ Um zufälligen Wind mit einstellbaren Parametern zu ermöglichen, können Sie di
 ## Version 002
 
     [WindSettings]
-    	enabled = true
-    	wind_update_rate = 150
+    enabled = true
+    wind_update_rate = 150
 
-    	;wind_plugin = SimpleRandomWind
+    ;wind_plugin = SimpleRandomWind
 	;wind_plugin = ConfigurableWind
 	wind_plugin = ConfigurableRandomWind
 	
