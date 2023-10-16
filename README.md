@@ -1,4 +1,7 @@
 # OpenSim-Configurable-Random-Wind
+The goal of OpenSim Configurable Random Wind is to obtain a random control for wind that allows for a predefined movement, such as that caused by gusts of wind, but also allows the randomness to be adjusted as desired. 
+
+Das Ziel von OpenSim Configurable Random Wind ist es eine Zufallssteuerung für Wind zu erhalten, bei der die Möglichkeit eine vordefinierte Bewegung entsteht, wie sie bei Windböen entstehen, aber auch der Zufall nach Belieben angepasst werden kann.
 
 ## ConfigurableRandomWind Plugin
 The ConfigurableRandomWind plugin is designed to provide wind simulation in virtual environments. It allows you to configure and generate random winds with adjustable direction and strength.
